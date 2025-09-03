@@ -10,7 +10,7 @@
 
 ---
 
-## What this does
+## Summary
 
 This desktop GUI application parses AutoHotkey `.ahk` macro files (commonly produced by MIDI→AHK conversion tools that send Numpad keys) and converts them into compact, readable text-based tab notation suitable for Guild Wars 2-style input. It supports single-file and batch conversion, chunking for long files, configurable thresholds for chord detection and line breaks, token-aware wrapping, dark/light themes, presets, and progress reporting.
 
