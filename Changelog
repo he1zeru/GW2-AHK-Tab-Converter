@@ -1,1 +1,10 @@
-
+## v0.28 — Release summary
+- Introduced a robust Preset system that stores JSON presets to `Presets/`.
+- Added bottom message margin and message history for status & progress messages.
+- Improved chunked conversion with percent-based progress reporting.
+- Restored and enforced sash (split-pane) bounds — panes cannot collapse below 20%.
+- Limited autosave persists only a small set of keys: `dark_mode`, `sash_frac`, `dest_root`, `out_font_family`, and `max_output_width`.
+- Default Chord Threshold updated to **100 ms**.
+- Zoom always defaults to **100%** on startup (not persisted).
+- Updated README, Changelog, and in-app instructions.
+- Fucking deleted the other changelog updates bc im lazy and they were mostly erraneous nonsense. This is mostly just a place for personal notes.
