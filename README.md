@@ -18,14 +18,14 @@ This desktop GUI application parses AutoHotkey `.ahk` macro files (commonly prod
 
 ## Key features
 
-- **Octave-aware formatting** — lower `[n]`, middle `n`, upper `(n)` notation.
+- **Octave-aware formatting** - lower `[n]`, middle `n`, upper `(n)` notation.
 - **Chord detection** with configurable millisecond threshold.
 - **Chunked conversion** to protect the UI when processing long macros.
 - **Token-aware wrapping** (wraps lines on space-separated tokens).
-- **Presets** — save/load conversion control profiles.
-- **Limited autosave** — dark mode and UI sash position persist across sessions.
-- **Bottom message margin & history** — status messages, progress, and event history.
-- **Batch Convert** — process multiple `.ahk` files in one operation.
+- **Presets** - save/load conversion control profiles.
+- **Limited autosave** - dark mode and UI sash position persist across sessions.
+- **Bottom message margin & history** - status messages, progress, and event history.
+- **Batch Convert** - process multiple `.ahk` files in one operation.
 
 ---
 
@@ -49,10 +49,10 @@ This desktop GUI application parses AutoHotkey `.ahk` macro files (commonly prod
 
 ## Files and folders created by the app
 
-- `settings.json` — limited-autosave configuration (dark_mode, sash fraction, dest_root, etc).
-- `GW2 AHK Inputs/` — suggested folder to place source `.ahk` files.
-- `GW2 Tab Outputs/` — converted `.txt` files are written here.
-- `Presets/` — JSON files for saved presets.
+- `settings.json` - limited-autosave configuration (dark_mode, sash fraction, dest_root, etc).
+- `GW2 AHK Inputs/` - suggested folder to place source `.ahk` files.
+- `GW2 Tab Outputs/` - converted `.txt` files are written here.
+- `Presets/` - JSON files for saved presets.
 
 ---
 
