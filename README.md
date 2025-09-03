@@ -35,7 +35,7 @@ This desktop GUI application parses AutoHotkey `.ahk` macro files (found on http
 3. Optionally place and store `.ahk` files into `GW2 AHK Inputs/`.
 4. Use **Open AHK File** to load a file and click **Convert**.
 5. Use **Copy Output** or **Export TXT** to save or share results.
-6. Fiddle around with the Chord Threshold until you get something that looks almost right. I can't be perfect every time lol.
+6. *Optionally fiddle around with the Chord Threshold until you get something that looks decent enough if the chord indicator marks (/) are incorrect. I can't be perfect every time lol.
 
 ---
 
