@@ -1,10 +1,47 @@
-## v0.28 — Release summary
-- Introduced a robust Preset system that stores JSON presets to `Presets/`.
-- Added bottom message margin and message history for status & progress messages.
-- Improved chunked conversion with percent-based progress reporting.
-- Restored and enforced sash (split-pane) bounds — panes cannot collapse below 20%.
-- Limited autosave persists only a small set of keys: `dark_mode`, `sash_frac`, `dest_root`, `out_font_family`, and `max_output_width`.
-- Default Chord Threshold updated to **100 ms**.
-- Zoom always defaults to **100%** on startup (not persisted).
-- Updated README, Changelog, and in-app instructions.
-- Fucking deleted the other changelog updates bc im lazy and they were mostly erraneous nonsense. This is mostly just a place for personal notes.
+## v0.28
+- Preset system added (save/load presets in `Presets/`).
+- Bottom message margin with history log for progress & events.
+- Improved chunked conversion with percent progress updates.
+- Limited autosave: `dark_mode`, `sash_frac`, `dest_root`, `out_font_family`, `max_output_width`.
+- Default Chord Threshold changed to 100 ms.
+- Enforced sash bounds (20% minimum per pane).
+
+## v0.27
+- Initial implementation of message history and bottom margin.
+- Progress bar improvements for single and chunked conversions.
+- Added "Batch Convert" robustness and per-file trimming.
+
+## v0.26
+- Token-aware output wrapping improved to avoid breaking chords mid-token.
+- Chord merging tolerance parameter introduced.
+
+## v0.25
+- Initial support for chunked processing to avoid UI freezes on long inputs.
+- Worker-threaded conversion to prevent main-thread blocking.
+
+## v0.24
+- UI: Zoom control added for converted pane; preserved font scaling.
+- Minor theme tweaks (dark/light) and improved label layouts.
+
+## v0.23
+- Added AHK parsing improvements for octave anchors (double 9 / double 0 behavior).
+- Fixes to octave toggle handling and pending_octave parsing.
+
+## v0.22
+- Batch conversion flow introduced.
+- Added estimation routine for macro duration to prompt chunking or max minutes trimming.
+
+## v0.21
+- Added README creation on first-run and automatic input/output folder creation.
+- Implemented rotating debug log file.
+
+## v0.20
+- Switched to percentage-based zoom with easter egg behavior (420 → 420.69).
+- Mirrored minimum width logic for converted pane to avoid clipping.
+
+## v0.19
+- Foundational features: parse AHK SendInput / Sleep; format runs by octave.
+- Initial GUI with source/out panes, controls, and basic conversion.
+
+
+## Deleted the other changelog updates bc im lazy and they were mostly erraneous nonsense. This is effectively just a place for personal notes.
