@@ -1,3 +1,5 @@
+(no idea why markdown isnt working here. wth even is GitHub >_>)
+
 ## v0.28
 - Preset system added (save/load presets in `Presets/`).
 - Bottom message margin with history log for progress & events.
