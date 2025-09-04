@@ -63,7 +63,7 @@ This desktop GUI application parses AutoHotkey `.ahk` macro files (found on http
 
 - If the app saves to an unexpected location, open **Settings → Change Destination Folder**.
 - If conversion stalls, reduce the **Chunk Size** (minutes) or use **Batch Convert** with chunking enabled.
-
+- Fatal errors and other useful information will be stored in your gw2_converter_debug.log file.
 ---
 
 
