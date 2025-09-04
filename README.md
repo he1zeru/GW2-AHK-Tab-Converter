@@ -9,6 +9,7 @@
 **Version:** v0.28  
 **Author:** Haze  
 **Contact:** Discord - bitchazel *  Guild Wars 2 User ID - hazey.4901
+Let me know what you think/ if you have any suggestions!
 
 **Repository:** https://github.com/he1zeru/GW2-AHK-Tab-Converter
 
