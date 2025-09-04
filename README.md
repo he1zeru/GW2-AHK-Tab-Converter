@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/he1zeru/GW2-AHK-Tab-Converter/main/gw2ahktotaboutlinebanner.png" alt="Banner" width="100%" />
+</p>
+
 # GW2 AHK → Tab Converter
 
 **Convert AutoHotkey `.ahk` Numpad macros into human-readable sight-reading tab notation for Guild Wars 2 input.**
